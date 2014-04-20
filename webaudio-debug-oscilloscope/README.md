@@ -1,6 +1,8 @@
 WebAudio Debug Oscilloscope
 ===========================
 
+<img src="https://dl.dropboxusercontent.com/u/673746/Screenshots/2014-04-20%2021.02.23.png" width="1058" height="297"/>
+
 ## USAGE
 
 Include a file:
@@ -44,5 +46,5 @@ $ npm install --save-dev
 $ grunt
 ```
 
-Edit webaudio-debug-oscilloscope.js and build compiled file to `build/` automatically.
+Edit `webaudio-debug-oscilloscope.js` and build compiled file to `build/` automatically.
 
