@@ -1,7 +1,7 @@
 WebAudio Debug Oscilloscope
 ===========================
 
-<img src="https://dl.dropboxusercontent.com/u/673746/Screenshots/2014-04-20%2021.02.23.png" width="1058" height="297" style="max-width: 800px"/>
+<img src="https://dl.dropboxusercontent.com/u/673746/Screenshots/2014-04-20%2021.02.23.png" style="max-width: 800px"/>
 
 ## USAGE
 
