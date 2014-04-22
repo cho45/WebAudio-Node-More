@@ -95,7 +95,11 @@ merger = context.createChannelMerger(2);
 agc.connect(merger, 0, 0);
 
 WebAudioDebug.prove(context, merger, {
-	// continuous : true
+	bufferSize : 64e3,
+	windowTime : 100e-3,
+	highResolution : false,
+	trigger : WebAudioDebug.OscilloscopeNode.Trigger.RaisingEdge({ triggerChannel: 0, width : 10, threshold : 0.5 }),
+	continuous : false
 });
 // WebAudioDebug.prove(context, merger);
 
